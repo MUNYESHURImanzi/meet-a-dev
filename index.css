@@ -1,5 +1,5 @@
 * {
-  margin-left:0px;
+  margin-left: 0px;
 }
 nav {
   box-sizing: border-box;
@@ -204,14 +204,13 @@ p10 {
   font-weight: 70;
   font-size: 15px;
   line-height: 40px;
- 
+
   letter-spacing: 0.05em;
 
   color: #082240;
 
   opacity: 0.7;
 }
-
 
 .text {
   text-align: center;
@@ -229,7 +228,7 @@ p10 {
 .pic {
   width: 310%;
   height: 300%;
-  background-color: #4a88d1;;
+  background-color: #4a88d1;
   padding-top: 30px;
 }
 .pic img {
@@ -243,19 +242,94 @@ p10 {
   width: 100%;
   display: flex;
 }
-.pal{
-  font-family: 'Antic';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 40px;
-justify-content: end;
+.pal {
+  font-family: "Antic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  padding-left: 250px;
+  letter-spacing: 0.1em;
 
-text-align: right;
-letter-spacing: 0.1em;
-
-color: #FFFFFF;
+  color: #ffffff;
 }
 .pic1 {
   margin-left: 150px;
+}
+.skills {
+  display: block;
+}
+.skills p1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 73px;
+
+  color: #4a88d1;
+  padding: 30px;
+  opacity: 0.95;
+}
+.skills p2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 73px;
+
+  color: #4a88d1;
+  padding: 30px;
+  opacity: 0.95;
+  opacity: 0.2;
+}
+.project {
+  display: flex;
+  padding: 150px;
+  justify-content: space-between;
+}
+.project p {
+  box-shadow: 2px 2px #082240;
+  padding: 2cm;
+}
+.project img {
+  width: 10cm;
+  height: 10cm;
+}
+footer {
+  margin-left: 90px;
+
+  padding-left: 150px;
+}
+form {
+  background-color: #c9c2c2;
+  width: 20cm;
+  height: 10cm;
+  padding-left: 150px;
+  border-radius: 70px;
+}
+input {
+  border-style: outset;
+  border-color: #4a88d1;
+  background: transparent;
+  margin: 20px -20px;
+  height: 30px;
+
+  border-left: 2px#4a88d1;
+  border-top: 2px#4a88d1;
+  border-right: 2px#4a88d1;
+}
+textarea {
+  border-style: outset;
+  border-color: #4a88d1;
+  background: transparent;
+  margin: 20px -20px;
+
+  border-left: 2px#4a88d1;
+  border-top: 2px#4a88d1;
+  border-right: 2px#4a88d1;
+}
+.contact button {
+ margin-bottom: 30px;
+ width: 150px;
+  height: 20px;
 }
