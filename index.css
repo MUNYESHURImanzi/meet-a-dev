@@ -34,59 +34,16 @@ a {
   justify-content: left;
   text-decoration: none;
 }
-p3 {
-  position: absolute;
-  width: 18px;
-  height: 37.16px;
-  left: 127.22px;
-  top: 27.3px;
-
-  background: #4a88d1;
-  box-shadow: 0px 4px 4px rgba(55, 30, 148, 0.25);
-  border-radius: 0px 70px 0px 0px;
-  transform: matrix(0.99, -0.16, 0.01, 1, 0, 0);
-}
-p4 {
-  position: absolute;
-  width: 18px;
-  height: 30px;
-  left: 145px;
-  top: 35px;
-
-  background: #4a88d1;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 0px 70px 0px 0px;
-  transform: matrix(0.99, -0.16, 0.01, 1, 0, 0);
-}
-p5 {
-  position: absolute;
-  width: 18px;
-  height: 20px;
-  left: 159px;
-  top: 45px;
-
-  background: #4a88d1;
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 0px 70px 0px 0px;
-  transform: matrix(0.99, -0.16, 0.01, 1, 0, 0);
-}
-p6 {
-  position: absolute;
-  width: 18px;
-  height: 15px;
-  left: 178px;
-  top: 50px;
-
-  background: #4a88d1;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 0px 70px 0px 0px;
-  transform: matrix(0.99, -0.16, 0.01, 1, 0, 0);
+nav img {
+  padding-left: 150px;
+  width: 2cm;
+  height: 2cm;
 }
 .box {
   position: absolute;
-  width: 100px;
+  width: 50px;
   height: 40px;
-  left: 60%;
+  left: 63.5%;
   top: 69px;
   border-top: 0px solid;
 
@@ -171,7 +128,9 @@ em {
 }
 .hom button {
   width: 150px;
-  height: 20px;
+  height: 30px;
+  
+  border-radius: 25%;
 }
 img {
   size: 32px;
@@ -219,10 +178,16 @@ p10 {
   padding-right: 30px;
 }
 .col {
-  width: 8cm;
+  border-radius: 50px;
+  width: 7cm;
   height: 10cm;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25),
     inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.col img{
+  width: 32px;
+  height: 32px;
+  margin-top: 20px;
 }
 
 .pic {
@@ -283,21 +248,34 @@ p10 {
   opacity: 0.2;
 }
 .project {
+  
   display: flex;
-  padding: 150px;
-  justify-content: space-between;
+  padding-left: 150px;
+  
+  width: 100%;
+  height: 10cm;
+ 
 }
-.project p {
-  box-shadow: 2px 2px #082240;
+
+.project p11 {
   padding: 2cm;
-}
-.project img {
+  margin-left: -250px;
   width: 10cm;
   height: 10cm;
 }
+.project img {
+  width: 10cm;
+  height: 8cm;
+  margin-left: 60px;
+}
+.project p11 img{
+  width: 32px;
+  height: 32px;
+ margin-left: 70%;
+}
 footer {
   margin-left: 90px;
-
+display: flex;
   padding-left: 150px;
 }
 form {
@@ -306,6 +284,7 @@ form {
   height: 10cm;
   padding-left: 150px;
   border-radius: 70px;
+  display: flex;
 }
 input {
   border-style: outset;
@@ -313,7 +292,7 @@ input {
   background: transparent;
   margin: 20px -20px;
   height: 30px;
-
+width: 5cm;
   border-left: 2px#4a88d1;
   border-top: 2px#4a88d1;
   border-right: 2px#4a88d1;
@@ -329,7 +308,49 @@ textarea {
   border-right: 2px#4a88d1;
 }
 .contact button {
- margin-bottom: 30px;
- width: 150px;
+  /* margin-bottom: 30px; */
+  width: 4cm;
   height: 20px;
+  margin-top: -1%;
+}
+form img{
+  width: 20px;
+  height: 20px;
+}
+.addres{
+  margin-top: 3%;
+  margin-left: 20%;
+}
+label{
+ font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+}
+form i{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 100;
+font-size: 15px;
+opacity: 0.8;
+
+}
+address{
+  font-family: 'Inter';
+
+font-weight: 100;
+font-size: 15px;
+
+}
+.all{
+  display: flex;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+.all img{
+  width: 4cm;
+  height: 4cm;
+}
+.all p12{
+  margin-left: 100px;
 }
