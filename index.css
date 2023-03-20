@@ -1,5 +1,6 @@
 * {
   margin-left: 0px;
+  
 }
 nav {
   box-sizing: border-box;
@@ -40,7 +41,7 @@ nav img {
   padding-left: 150px;
   width: 2cm;
   height: 2cm;
-  position: fixed;
+  po
 }
 .box {
   position: absolute;
