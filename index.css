@@ -3,7 +3,7 @@
 }
 nav {
   box-sizing: border-box;
-
+ 
   position: absolute;
   width: 100%;
   height: 70px;
@@ -27,17 +27,20 @@ nav {
   left: 600px;
   justify-items: center;
   top: 33px;
+ 
 }
 a {
   padding: 10px 20px;
   align-items: center;
   justify-content: left;
   text-decoration: none;
+  
 }
 nav img {
   padding-left: 150px;
   width: 2cm;
   height: 2cm;
+  position: fixed;
 }
 .box {
   position: absolute;
@@ -92,6 +95,7 @@ button {
   width: 25px;
   box-shadow: 2px 3px 2px;
   border-color: #a2cbfa;
+  
 }
 .hom {
   padding-top: 180px;
@@ -129,8 +133,9 @@ em {
 .hom button {
   width: 150px;
   height: 30px;
+  border-radius: 12px;
   
-  border-radius: 25%;
+ 
 }
 img {
   size: 32px;
@@ -309,9 +314,10 @@ textarea {
 }
 .contact button {
   /* margin-bottom: 30px; */
-  width: 4cm;
+  width: 100px;
   height: 20px;
   margin-top: -1%;
+  border-radius: 10px;
 }
 form img{
   width: 20px;
