@@ -35,25 +35,25 @@ a {
   align-items: center;
   justify-content: left;
   text-decoration: none;
-  
+  color: #4a88d1;
 }
 nav img {
   padding-left: 150px;
   width: 2cm;
   height: 2cm;
-  po
+  
 }
 .box {
   position: absolute;
   width: 50px;
-  height: 40px;
+  height: 10px;
   left: 63.5%;
   top: 69px;
   border-top: 0px solid;
 
   border-right: 440px solid #4a88d1;
 
-  border-bottom: 500px solid transparent;
+  border-bottom: 300px solid transparent;
   border-radius: 100px 0px 10px 100px;
 }
 .box2 {
@@ -79,14 +79,13 @@ nav img {
 
   color: #050b11;
 }
-.button {
-  position: absolute;
-  width: 200px;
-  height: 35px;
-  left: 800px;
-  top: 400px;
+.button  img {
+  
+margin-left: 60%;
+width: 20%;
+height: 2%;
+margin-top: 30%;
 
-  background: #ecf2f7;
 }
 button {
   align-items: center;
@@ -99,6 +98,7 @@ button {
   
 }
 .hom {
+   margin-top:-39% ; 
   padding-top: 180px;
   padding-left: 150px;
 }
@@ -197,10 +197,10 @@ p10 {
 }
 
 .pic {
-  width: 310%;
-  height: 300%;
-  background-color: #4a88d1;
-  padding-top: 30px;
+  background-image: url(./Vector\ 2.png);
+ 
+  
+  padding-top: 250px;
 }
 .pic img {
   border-radius: 50%;
@@ -339,7 +339,7 @@ form i{
 font-style: normal;
 font-weight: 100;
 font-size: 15px;
-opacity: 0.8;
+color: #082240;
 
 }
 address{
@@ -361,3 +361,4 @@ font-size: 15px;
 .all p12{
   margin-left: 100px;
 }
+.addres
