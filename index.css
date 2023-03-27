@@ -547,7 +547,7 @@ h2 {
 }
  text {
   text-align: center;
-  display: block;
+  display:block;
   justify-content: space-between;
   padding-right: 30px;
 }
@@ -558,10 +558,12 @@ h2 {
   height: 60vh;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25),
     inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-}}
+}
+}
 
 @media screen and (max-width:320px){
   body{
+  
     
   }
   
@@ -745,7 +747,7 @@ h1 {
 }
 .love h1{
 
-  padding: 5% 0% 3% 50%;
+  padding: 5px 0px 3px 0px;
  
 }
 
@@ -1128,7 +1130,7 @@ h1 {
 }
 .love h1{
 
-  padding: 5% 0% 3% 50%;
+  padding: 5px 0px 3px 0px;
  
 }
 
