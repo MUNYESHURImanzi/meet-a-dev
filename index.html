@@ -1,7 +1,7 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>munyeshuri</title>
@@ -11,16 +11,20 @@
   href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
   </head>
   <body>
-    <nav>
-       <a href="#home"><img src="./Group 1.png" alt="log"></a> 
-      <div class="navbar">
+    <nav class="dropdown">
+       <a href="#home">
+        <img src="./Group 1.png" alt="log"></a>
+        
+      <div class="na">
+        
         <span><a href="#home">home</a></span>
-        <span></span><a href="#about">about me </a></span>
-        <span> <a href="#skills">my skill</a></span>
-        <span></span><a href="# my project">project</a></span>
-        <span></span><a href="another.html">blog</a></span>
-        <span></span><a href="#contact">contact</a></span>
+        <span><a href="#about">about </a></span>
+        <span> <a href="#skills">skill</a></span>
+        <span><a href="# my project">project</a></span>
+        <span><a href="another.html">blog</a></span>
+        <span><a href="#contact">contact</a></span>
       </div>
+      <img src="./ic_menu_sort_by_size.png" alt="menu" class="menu">
     </nav>
     <div class="box">
       <div class="box2">
@@ -35,12 +39,7 @@
       
     </div>
     <div class="button">
-      <button  style=" background-color: #4a88d1;" 
-    ></button>
-      <button style=" background-color: #9EBDE1;" ></button>
-      <button style=" background-color: #5C8DC6;"></button>
-      <button style=" background-color:  #000000;"></button>
-      <button style=" background-color: #C6D6E8;" ></button>
+      <img src="./Group 29.png" alt="butoo">
     </div>
     <section >
   <div class="hom" id="home">
@@ -55,33 +54,39 @@
       <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAoNJREFUWEftV0Fy00AQ7NlUSdySH+AXoOgFiBsRVMU/QH5BnEsSnwgnJVxCfuC8AFFFXNzwD2zlA5gfODcI5R1qFdsRsla7awoqB+9VPTO9vT2zK8IjW/TI+GBDyHQiG4X+u0Lx+9EuJB0wRIvAEYAxA0NmefmlF04WhNoXo527X2gNjsJxmeTKkb1MRy2BrWjQe9Y37ab6/dV53mXGhTaOqSMwm8xI7BOQSJZhmaSKWyG0TMrUcSG1d37TJuaPtpsgwuH1cfChil8hFKf5EITnBdCSVCH/T/ENwI4dIe6DaAJG6PkyyQ7D6SJuldBZngHYf0jMmedzpxxULeqqzjz+FkJGRg9pfDAlQvf6OLiqUyBO81MQ3tqpU0ifQ3BSJVProdfpKJIkvmqSTwHOIPiynCw+y5UXDqwJMd4NesFpHb52MO6leZ8IbywKjBlUnP+8xS1CAJ2haxVSfvC92fDuh8iW5rYqYw8SLF987oVDK4XiB1OrnVt2jT0ZhXQj5GxQNzIKPTgJtHdo/aSmYqb8q/VpcBK0dclrmbq3sT33JkPXmnqROk5vEoDVfHlqX86IvPV82WoastqzvJ9HW9sFKWDXWMoG0DB/FuEGQtoBaVO+ijGq03hk6qPDgDQTtLyojU/YP25/c1kdorGzykFGQgpc+AkiAnEboMCNF+eez1GTkZ0JqYD5KFAXqMP0diNj9JB6HxOLgBmq01ouyjDjyn8iu7bK1HbZ/GjU7Nleu9UZ3wVkors8TZvSXR1dAAlQELNcnBNRv+6dbJmggDWaemlmQP3OKPT9W1u9+JimDEyEwHgmZVb9e3AhsZap1y3gGmfV9q5J/wa/IWRSb6OQSaHfjh4ENF7+2DkAAAAASUVORK5CYII="/>
       <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAx5JREFUWEfdl01WGkEUhe8rzpFh3EFcgcAKQmaRZIAriKwgZhJlJI6ImQRXAFmBDBKSWXAF2FmB7gCH5Bzq5VT/VndXdVe3DDxhhFBUfX3frfuehGf2omfGg/8P6N141ZUkpkppwXLwfdhZPkX12gr1v672NxtxQcCpDsDApNmUl/OPnXUdsFpAmioHlkPv66pVCcioCuMWhFcBGHsAtSLIOmo5A+VUYTwIyBN1uCTxO/TQa/9viBkIL0OwSmqVAilV/m5oClBfK8/1XlOOlE9C0BhImTr4jRgB+FBVrUKgo6s/fWJWN2g/qEigin6TTEARhP9dRbWMQGWq6EYuAlLrqqqVA3JRpQpQVbVSQEdjb0aE9yav2DIlfIAbv6JExz/PDue2tSa1wLhcDFvKb/4rBdT77HFiQlo2m9vjooB7e+WdMuMi9higwnC0OG9dF0FtNo0bAnejNYvzVsxhBSq6sm/GqwOixlTb9DFc/yLwPi2Zt4Nfw869obzqkqQC1QVIHeBvHhyQtIOcKoxbGeaRIJprwRirZQnUhyiryoEYlyzojiRP9IBj0L2uChFGP85aE12F3tgbgfwyhg9DSwIrRQJVwuiQEN1onROQMprRhMGmvirZkkQQvS+rNiTN9DYSfhcHqg7uDGTwSnRmYTvIRUcsIc/3mjxQF6UyEAms0zeIPWa602Mh2zxNgcqMb0Tc1r3FRAOS3HYvWXB9g3YRlCjOCls72IrGflGbyXoL2hnlJUtIPAg+WXzq3OnGtXorWRR7JWV4i7fcgBi3i2ErDi994+h9Ti1D8zX9rjf2lskMBdiBMlcWSExo2lh9VtZc88pmRhmmwWJ4OIvW5ZqrwSNrZUJbj3IFyt88NtqhYPxID1g2tcqAjKNMpqHqKhYOaC5qFQG5quIMpBaab1TiLfsIm/VKesywebJ0prbeKMD3VkNu1/qQn8sj9Z+IITqeDGRXCyqj2uEB+vtUoNoAsp87K6T/MCgTTQzNM4r2SqpU8lDRkxnaQS1VdgakNopHDaY1GvI022ZcS2UNxqob7Hp9LQ/tGmKnJds13D/rRoBD+ClPtgAAAABJRU5ErkJggg=="/>
     </div>
+  </div>
+  </div>
+</section>
+  <section id="love">
+  <div class="love">
     <h1>Things I love</h1>
    <div class="text">
       <div class="col">
         <img src="./JS.png" alt="javascript">
       <h2>javascript</h2><br>
-      <P10>i just extremely love <br>, ican,t even  express <br>how much i love <br>javascript with <br>just a few lines</P10>
+      <P class="front">i just extremely love <br>, ican,t even  express <br>how much i love <br>javascript with <br>just a few lines</p>
       </div>
       <div class="col">
         <img src="./Source Code.png" alt="code">
         <h2>font-end</h2>
-        <P10>I'm more front end focused and love<br>
+        <P class="front">I'm more front end focused and love<br>
           to work with Reactjs<br>
           as well as pure<br>
-          HTML, CSS.</P10>
+          HTML, CSS.</P>
       </div>
       <div class="col">
         <img src="./Vector.png" alt="blush">
         <h2>creative</h2>
         
-        <P10>love creative coding<br> because I do both <br>coding & designing.<br> making beautiful art<br> with code is very <br>satisfying to me.</p10>
+        <P class="front">love creative coding<br> because I do both <br>coding & designing.<br> making beautiful art<br> with code is very <br>satisfying to me.</p>
 
     </div>
-</div>
-<h1>About</h1>
+  </div>
+
 </section>
-<section id="about ">
-  
+
+<section id="about">
+  <h1>About</h1>
     <div class="pic">
       
         <img src="./+250 784 086 021 20220331_203726 1.png" alt="image" class="pic1">
@@ -91,73 +96,79 @@
       </div>
     </div>
     </section>
-    <section>
+    <section id="skill">
     <h1>My skills</h1>
-    <center>
-    <div class="skills" id="skills">
+    
+    <div class="skills" >
       
         <div class="one">
-<p1>c++ </p1>
-<p2> figma</p2>
-<p1>css </p1>
+<h1>c++ </h1>
+<h1> figma</h1>
+<h1>css </h1>
 </div>
 <div class="two">
-<p1>node js </p1>
-<p1> javascript</p1>
-<p1> c</p1>
+<h1>node.js  </h1>
+<h1> javascript</h1>
+<h1> c</h1>
 </div>
 <div class="three">
-<p1> html</p1>
+<h1> html</h1>
+<h1> </h1>
 </div>
     </div>
   
   </section>
-</center>
 
-<h1>My project</h1><br>
-<section>
-      
-  <div class="project" id="project">
-<h2>Readme project</h2>
-<p11>Readme Stats dynamically generates stats for github user's readmes, After github launched it's profile readme feature I thought I would do something <br>
-unique and dynamic with new readme<br>
+
+
+<section id="project">
+  <h1>My project</h1>    
+  <div class="project" >
+
+
+<p><b>Readme project</b> <br> Readme Stats dynamically generates stats for github user's readmes, After github launched it's profile readme feature I thought I would do something <br>
+unique and dynamic with new readme
  resumes so I made github-readme-stats which<br>
 
 is now used by many people and got over 1k stars on github within <br>
 7 days, and currently it has over 30k stars. it has few cool features including <br>
 `Github Extra Pins` which allows us to pin more that 6 repos in our profile.<br>
-<img src="./Vector (1).png" alt="github"></p11>
+</p>
 <img src="./Group 28.png" alt="image">
   </div>
   
   <div class="project">
-    <h2>Macerena APP</h2>
-<p11> maceren app vpn is an app that will provide<br>
+    
+    
+<p> <b>Macerena APP</b> <br> maceren app vpn is an app that will provide<br>
 free internet servers to customers and it<br>
 is easy to  access and use the app it’s different<br>
 to the previous app because no need on injecting <br>
 files .. Now the app is availbe on our git hub account 
 and soon it will be on playstore   <br>
-<img src="./Vector (1).png" alt="github"> </p11>
+ </p>
  <img src="./Group 28.png" alt="image">
       </div>
 </section >
+<section id="contact">
 <h1>contact us</h1>
 
 <footer>
-  <form action="">
-    <div class="contact" id="contact">
-    <input type="text" placeholder="first name" ><br>
-    <input type="text" placeholder="first name" >
+  <form >
+    <div class="contact" >
+    <input type="text" placeholder="Names" ><br>
+    <input type="email" placeholder="e-mail">
     <br>
     
-    <textarea name="message" class="area" cols="30" rows="10" placeholder="message"></textarea>
+    <textarea name="message" class="area" cols="30" rows="9" placeholder="message"></textarea>
     <br>
     <button>submit</button> <br>
      </div>
      <div class="addres">
-<img src="./carbon_email.png" alt="gmail">
-<i>Email</i><br>
+      <ul>
+       <img src="./carbon_email.png" alt="gmail">
+        <i>Email</i><br>
+
 <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSBncPMpZcRsCfkhMLVfGnBtHJKXMznLJcZwvFmrnSMtvzDJPSlnbRWQSNwGwTHZsGJwrjfl"><label for=""> munyeshurimanzi@gmail.com</label><br></a>
 <img src="./Vector (2).png" alt="gmail">
 <i>linkdiln</i><br>
@@ -171,7 +182,7 @@ and soon it will be on playstore   <br>
   </form>
 </footer>
   </div>
-
+</section>
   </body>
 </html>
 
