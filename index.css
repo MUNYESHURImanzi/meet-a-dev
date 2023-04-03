@@ -38,7 +38,7 @@ nav span a {
   text-decoration: none;
   color: #1381ff;
 
-  font-size: 20px;
+  font-size: 2vw;
 }
 
 .menu {
@@ -163,11 +163,12 @@ h1 {
 }
 
 #love {
-  padding: 5px 5px 10% 150px;
+  padding: 5px 5px 10% 10px;
   margin-top: 10%;
 }
 .love h1 {
-  padding: 0px 0px 3px 15px;
+  padding: 10px 0px 50px 15px;
+ 
 }
 
 .love p {
@@ -1982,6 +1983,289 @@ address {
     font-weight: 100;
     font-size: 15px;
   }
+}
+@media screen and (max-width: 600px) {
+
+  body {
+    margin: 0px;
+  }
+  
+  nav {
+    position: relative;
+    width: 100%;
+    height: 60px;
+  
+    top: 0px;
+    font-family: Verdana;
+    background: linear-gradient(
+        0deg,
+        rgba(199, 224, 254, 0.2),
+        rgba(199, 224, 254, 0.2)
+      ),
+      linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
+      #ffffff;
+    border-bottom: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  nav {
+    display: inline-flex;
+  }
+  .na {
+    margin: 20px 300px;
+  }
+  nav span {
+    margin-left: 30px;
+  }
+  
+  nav span a {
+    position: relative;
+    text-decoration: none;
+    color: #1381ff;
+  
+    font-size: 20px;
+  }
+  
+  .menu {
+    display: none;
+  }
+  
+  .navbar a.active {
+    border-bottom: 3px solid rgb(53, 55, 78);
+  }
+  nav img {
+    padding-left: 5%;
+    width: 80px;
+    height: 80px;
+    position: fixed;
+  }
+  #love {
+    padding: 5% 5% 10% 10%;
+    margin-top: 10%;
+  }
+  .love h1 {
+    padding: 5px 0px 3px 0px;
+  }
+
+  .love p {
+    padding-bottom: 10px;
+  }
+  h2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 40px;
+
+    color: #113e73;
+    text-align: center;
+  }
+
+  .col img {
+    width: 36px;
+    height: 36px;
+  }
+  .text {
+    text-align: center;
+    display: block;
+    justify-content: space-between;
+    padding-right: 30px;
+  }
+  .col {
+    border-radius: 40px;
+    width: 40vh;
+    margin: 10px 0px 0px 10px;
+    height: 60vh;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  #about h1 {
+    padding: 0px 50px 3px 50px;
+  }
+  .pic {
+    background-repeat: no-repeat;
+    background-image: url("./Vector\ 2.png");
+    position: absolute;
+    height: 4000px;
+    padding-top: 250px;
+    width: 100%;
+  }
+  .pic img {
+    width: 180px;
+    height: 220px;
+  }
+  .pic {
+    width: 100%;
+    display: contents;
+  }
+  .pal {
+    width: 100%;
+    font-family: "Antic";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    padding-left: 40px;
+    letter-spacing: 0.05em;
+    background-color: #c2daf7;
+    color: #030303;
+  }
+  .pic1 {
+    margin-left: 30px;
+
+    padding: 5% 50px 0px 50px;
+  }
+  .skills {
+    display: -webkit-inline-box;
+    padding: 5px 10px 0px 10px;
+  }
+  .skills h1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #4a88d1;
+
+    opacity: 0.95;
+  }
+  .three h1 {
+    display: none;
+  }
+.pal {
+  width: 100%;
+  font-family: "Antic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  padding-left: 40px;
+  letter-spacing: 0.05em;
+
+  color: #030303;
+}
+.pic1 {
+  margin-left: 30px;
+
+  padding: 5% 50px 0px 50px;
+}
+.skills {
+  display: -webkit-inline-box;
+  padding: 5px 10px 0px 10px;
+}
+.skills h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #4a88d1;
+
+  opacity: 0.95;
+}
+.three h1 {
+  display: none;
+}
+#project h1 {
+  padding: 30px 0px 30px 15px;
+}
+.project {
+  display: contents;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 100%;
+  height: 10cm;
+}
+
+.project p {
+  padding: 10px 5px 5px 5px;
+  margin-left: 5%;
+  width: 250px;
+  line-height: 30px;
+  height: 10%;
+}
+.project img {
+  padding: 5px 5px 0px 10px;
+  width: 250px;
+  height: 250px;
+  margin-left: 10px;
+}
+footer {
+  margin-left: 10px;
+  display: flex;
+  padding-left: 10px;
+}
+form {
+  background-color: #c9c2c2;
+  width: 100%;
+  height: 30vh;
+  padding-left: 10px;
+  border-radius: 40px;
+  display: flex;
+}
+input {
+  border-style: outset;
+  border-color: #4a88d1;
+  background: transparent;
+  margin: 20px 5px 10px;
+  height: 5%;
+  width: 80%;
+  font-size: 10px;
+  border-left: 2px#4a88d1;
+  border-top: 2px#4a88d1;
+  border-right: 2px#4a88d1;
+}
+textarea {
+  border-style: outset;
+  border-color: #4a88d1;
+  background: transparent;
+  margin: 1px;
+  height: 15%;
+  width: 80%;
+  font-size: 10px;
+  border-left: 2px#4a88d1;
+  border-top: 2px#4a88d1;
+  border-right: 2px#4a88d1;
+}
+.contact button {
+  margin-bottom: 30px;
+  width: 100px;
+  height: 20px;
+
+  border-radius: 10px;
+}
+form img {
+  width: 20px;
+  height: 20px;
+}
+.addres {
+  row-gap: 50%;
+  padding: 5% 10% 20% 10%;
+}
+label {
+  display: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+}
+form i {
+  font-family: hidden;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 15px;
+  color: #082240;
+  display: none;
+}
+address {
+  font-family: "Inter";
+  display: none;
+  font-weight: 100;
+  font-size: 15px;
+}
+
 }
 /* #about h1 {
   padding: 5% 0% 0% 50%;
